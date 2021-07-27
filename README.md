@@ -1,6 +1,6 @@
 # Mundipagg Integration SDK
 
-This is a simple project to learn to user Mundipagg API.
+This is a simple project to learn how to use Mundipagg API.
 
 ## Getting started
 
