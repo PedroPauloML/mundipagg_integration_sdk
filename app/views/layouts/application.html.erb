@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render partial: "layouts/shared/header" %>
+
+    <div class="content-wrapper">
+      <%= render partial: "layouts/shared/sidebar" %>
+
+      <div class="page-container">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
