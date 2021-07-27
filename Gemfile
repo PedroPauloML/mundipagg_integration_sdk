@@ -5,6 +5,7 @@ ruby '2.7.2'
 
 gem 'pry-rails'
 gem 'money'
+gem 'mundi_api', '~>2.1.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
