@@ -1,24 +1,23 @@
-# README
+# Mundipagg Integration SDK
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple project to learn to user Mundipagg API.
 
-Things you may want to cover:
+## Getting started
 
-* Ruby version
+To install dependencies, run: `bundle install`.
 
-* System dependencies
+To create database and apply migration, run: `rails db:create db:migrate`.
 
-* Configuration
+## Config's Mundipagg API
 
-* Database creation
+To view config's Mundipagg API, access the file `config/initializers/mundipagg_api.rb`.
 
-* Database initialization
+To API work is required has a account configured in it platform. To authenticate with SDK, create a enviroment variable named _MUNDIPAGG_INTEGRATION_SDK_USER_NAME_ with your _secret_key_ and a enviroment variable named _MUNDIPAGG_INTEGRATION_SDK_PASSWORD_ with your _password_.
 
-* How to run the test suite
+**Observation**: Test enviroment doesn't has password. Read [here](https://docs.mundipagg.com/docs/gerenciando-sua-carteira-de-clientes).
 
-* Services (job queues, cache servers, search engines, etc.)
+To more details, access [SDK Github repository](https://github.com/mundipagg/MundiAPI-RUBY) and [Mundipagg documentation](https://docs.mundipagg.com/reference)
 
-* Deployment instructions
+## And now?
 
-* ...
+Enjoy learning!
